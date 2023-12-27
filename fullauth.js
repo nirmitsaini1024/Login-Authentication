@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const jwtPassword = "123456";
 
 mongoose.connect(
-  "mongodb+srv://nirmitsaini:Amedo12345@cluster0.sqfndqy.mongodb.net/user_app"
+  "mongodb+srv://username:password@cluster0.sqfndqy.mongodb.net/foldername"
 );
 
 const UserProfileSchema = mongoose.model("User", {
